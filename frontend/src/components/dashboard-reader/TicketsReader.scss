@@ -1,0 +1,36 @@
+.hidden-data{
+    display: none;
+}
+.ticket-reader-container{
+    .ticket-reader-table{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        table{
+            height: 100%;
+            width: 90%;
+            thead {
+
+                tr{
+                    text-align: center;
+                    vertical-align: middle;
+                }
+            }
+            .col-icon {
+                width: 50px;
+                text-align: center;
+            }
+        }
+    }
+    .modal-dialog{
+        width: 62%;
+        max-width: unset;
+    }
+    .modal-footer{
+        button {
+            height: 38px;
+            width: 64px;
+        }
+    }
+}

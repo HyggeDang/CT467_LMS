@@ -1,0 +1,40 @@
+.hidden-data{
+    display: none;
+}
+.author-librarian-container{
+    .lb-add-author{
+        margin-left: 5px;
+    }
+    .author-librarian-table{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        table{
+            height: 100%;
+            width: 90%;
+            thead {
+
+                tr{
+                    text-align: center;
+                    vertical-align: middle;
+                }
+            }
+            .col-control-data{
+                width: 100px;
+            }
+        }
+    }
+    #modal-author{
+        .modal-footer{
+            button {
+                height: 38px;
+                width: 64px;
+            }
+            #btn-update-author, #btn-add-author{
+                width: 100px;
+            }
+        }
+    }
+
+}

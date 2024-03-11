@@ -1,0 +1,66 @@
+.hidden-data{
+    display: none;
+}
+.book-librarian-container{
+    .container-control{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 10px;
+    }
+    .book-librarian-table{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        table{
+            height: 100%;
+            width: 90%;
+            thead {
+
+                tr{
+                    text-align: center;
+                    vertical-align: middle;
+                }
+            }
+        }
+    }
+    .lb-add-book{
+        margin-left: 5px;
+    }
+    #modalBook{
+        #moTa{
+            resize: both;
+            max-height: 115px;
+            max-width: 438px;
+        }
+        .form-slc{
+            .MuiOutlinedInput-notchedOutline{
+                legend{
+                    font-size: 12px;
+                }
+            }
+        }
+        .form-slc-nxb{
+            .MuiOutlinedInput-notchedOutline{
+                legend{
+                    font-size: 26px;
+                }
+            }
+        }
+    }
+    #modalListTicket {
+        .modal-dialog{
+            width: 50%;
+            max-width: unset;
+        }
+    }
+    .modal-footer{
+        button {
+            height: 38px;
+            width: 64px;
+        }
+        #btn-add-book, #btn-update-book{
+            width: 100px;
+        }
+    }
+}

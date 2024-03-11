@@ -1,0 +1,41 @@
+.hidden-data{
+    display: none;
+}
+.reader-librarian-container{
+    .lb-add-author{
+        margin-left: 5px;
+    }
+    .reader-librarian-table{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        table{
+            height: 100%;
+            width: 90%;
+            thead {
+
+                tr{
+                    text-align: center;
+                    vertical-align: middle;
+                }
+            }
+            .col-control-data{
+                width: 50px;
+            }
+        }
+    }
+    #modalTicket{
+        .modal-dialog{
+            width: 50%;
+            max-width: unset;
+        }
+        .modal-footer{
+            button {
+                height: 38px;
+                width: 64px;
+            }
+        }
+    }
+
+}

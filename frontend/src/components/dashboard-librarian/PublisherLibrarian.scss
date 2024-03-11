@@ -1,0 +1,51 @@
+.hidden-data{
+    display: none;
+}
+.publisher-librarian-container{
+    .lb-add-publisher{
+        margin-left: 5px;
+    }
+    .publisher-librarian-table{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        table{
+            height: 100%;
+            width: 90%;
+            thead {
+                tr{
+                    text-align: center;
+                    vertical-align: middle;
+                }
+            }
+            .col-control-data{
+                width: 100px;
+            }
+        }
+    }
+    #modal-publisher{
+        #namThanhLap{
+            width: 136px;
+            height: 0px;
+            font-size: 15px;
+            margin-top: 3px;
+        }
+        #namThanhLapPicker {
+            height: 18px;
+            width: 21px;
+            border: 0;
+            margin-top: 9px;
+        }
+        .modal-footer{
+            button {
+                height: 38px;
+                width: 64px;
+            }
+            #btn-update-publisher, #btn-add-publisher{
+                width: 100px;
+            }
+        }
+    }
+
+}

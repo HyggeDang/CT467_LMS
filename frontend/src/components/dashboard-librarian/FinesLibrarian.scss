@@ -1,0 +1,51 @@
+.hidden-data{
+    display: none;
+}
+.fine-librarian-container{
+    .lb-add-author{
+        margin-left: 5px;
+    }
+    .fine-librarian-table{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        table{
+            height: 100%;
+            width: 90%;
+            thead {
+
+                tr{
+                    text-align: center;
+                    vertical-align: middle;
+                }
+            }
+            .col-control-data{
+                width: 50px;
+            }
+        }
+    }
+    #modalFine{
+        .lbDatePicker{
+            width: 340px;
+            font-size: 12px;
+            margin-top: 3px;
+        }
+        .ipDatePicker {
+            height: 18px;
+            width: 21px;
+            border: 0;
+            margin-top: 20px;
+        }
+        .modal-footer{
+            button {
+                height: 38px;
+                width: 64px;
+            }
+            #btn-update-fine{
+                width: 100px;
+            }
+        }
+    }
+
+}

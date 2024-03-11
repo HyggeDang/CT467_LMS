@@ -1,0 +1,22 @@
+.hidden-data{
+    display: none;
+}
+.fines-reader-container{
+    .fines-reader-table{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        table{
+            height: 100%;
+            width: 90%;
+            thead {
+                tr{
+                    text-align: center;
+                    vertical-align: middle;
+                }
+            }
+        }
+    }
+
+}

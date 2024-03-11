@@ -1,0 +1,45 @@
+.hidden-data{
+    display: none;
+}
+.genres-librarian-container{
+    .lb-add-genres{
+        margin-left: 5px;
+    }
+    .genres-librarian-table{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        table{
+            height: 100%;
+            width: 90%;
+            thead {
+
+                tr{
+                    text-align: center;
+                    vertical-align: middle;
+                }
+            }
+            .col-control-data{
+                width: 100px;
+            }
+        }
+    }
+    #modal-genres{
+        #moTa{
+            resize: both;
+            max-height: 115px;
+            max-width: 438px;
+        }
+        .modal-footer{
+            button {
+                height: 38px;
+                width: 64px;
+            }
+            #btn-update-genres, #btn-add-genres{
+                width: 100px;
+            }
+        }
+    }
+
+}

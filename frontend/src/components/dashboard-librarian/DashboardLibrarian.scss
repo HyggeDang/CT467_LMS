@@ -1,0 +1,27 @@
+.librarian-container{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 2rem;
+}
+#modal-edit-user-info{
+    .modal-footer{
+        button {
+            height: 38px;
+            width: 64px;
+        }
+        #btn-update-user-info{
+            width: 100px;
+        }
+    }
+}
+#modal-edit-user-pass{
+    .modal-footer{
+        button {
+            height: 38px;
+            width: 64px;
+        }
+        #btn-update-user-pass{
+            width: 100px;
+        }
+    }
+}
